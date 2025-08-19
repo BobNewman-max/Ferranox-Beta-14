@@ -8,17 +8,20 @@
   },
   "states": [
     {
-      "name": "wattle"
+        "name": "wattle0",
+        "directions": 4
     },
     {
-      "name": "wattle1"
+        "name": "wattle1",
+        "directions": 4
     },
     {
       "name": "wattle2",
       "directions": 4
     },
     {
-      "name": "wattle3"
+       "name": "wattle3",
+       "directions": 4
     },
     {
       "name": "wattle4",
@@ -34,38 +37,10 @@
     },
     {
       "name": "wattle7"
-    },
+      "directions": 4
+    }
     {
-      "name": "wattledoor"
-    },
-    {
-      "name": "wattledooropening",
-      "delays": [
-        [
-          0.1,
-          0.1,
-          0.1,
-          0.1,
-          0.1,
-          0.1
-        ]
-      ]
-    },
-    {
-      "name": "wattledoorclosing",
-      "delays": [
-        [
-          0.1,
-          0.1,
-          0.1,
-          0.1,
-          0.1,
-          0.1
-        ]
-      ]
-    },
-    {
-      "name": "wattledooropen"
+      "name": "wattle"
     }
   ]
 }
