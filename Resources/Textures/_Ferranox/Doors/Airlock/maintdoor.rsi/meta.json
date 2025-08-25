@@ -1,0 +1,68 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Taken from https://github.com/WoodenTucker/40K-Eipharius",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "maint",
+      "delays": [
+        [
+          0.1,
+          0.089999996
+        ]
+      ]
+    },
+    {
+      "name": "maint_open",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          2.5
+        ]
+      ]
+    },
+    {
+      "name": "maint_closed",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          2.5
+        ]
+      ]
+    },
+    {
+      "name": "locked",
+      "delays": [
+        [
+          0.1,
+          0.2,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "maint_frame"
+    }
+  ]
+}
