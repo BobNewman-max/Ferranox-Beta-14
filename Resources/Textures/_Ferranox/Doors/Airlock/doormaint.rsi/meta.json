@@ -1,0 +1,175 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Taken from https://github.com/WoodenTucker/40K-Eipharius",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "panel_open"
+    },
+    {
+      "name": "sparks_damaged",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          1.7
+        ]
+      ]
+    },
+    {
+      "name": "sparks_broken",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "sparks_open",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "door_closed"
+    },
+    {
+      "name": "door_opening",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.5
+        ]
+      ]
+    },
+    {
+      "name": "o_door_opening",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.5
+        ]
+      ]
+    },
+    {
+      "name": "door_opening_stat",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.5
+        ]
+      ]
+    },
+    {
+      "name": "door_deny",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "door_locked"
+    },
+    {
+      "name": "door_closing",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.5
+        ]
+      ]
+    },
+    {
+      "name": "o_door_closing",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.5
+        ]
+      ]
+    },
+    {
+      "name": "door_closing_stat",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.5
+        ]
+      ]
+    },
+    {
+      "name": "door_spark"
+    },
+    {
+      "name": "welded"
+    },
+    {
+      "name": "door_open"
+    }
+  ]
+}
