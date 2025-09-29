@@ -1701,20 +1701,16 @@
   - type: SunShadowCast
 
   #Farranox Walls
+
 - type: entity
   parent: BaseWall
   id: ConcreteWall
   name: Concrete Wall
-  description: A concrete wall reinforced with metal.
   components:
   - type: Sprite
-    sprite: _Ferranox\Structures\Walls\concretewalls.rsi
+    sprite: Structures/_Ferranox/Walls/concretewalls.rsi
   - type: Icon
-    sprite: _Ferranox\Structures\Walls\concretewalls.rsi
-  - type: RCDDeconstructable
-    cost: 6
-    delay: 8
-    fx: EffectRCDDeconstruct8
+    sprite: Structures/Walls/concretewalls.rsi
   - type: Destructible
     thresholds:
     - trigger:

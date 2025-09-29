@@ -8,34 +8,38 @@
   },
   "states": [
     {
-      "name": "concretewall"
+        "name": "seolitewindow"
     },
     {
-      "name": "concretewall1",
+        "name": "seolitewindow0",
+        "directions": 4
+    },
+    {
+      "name": "seolitewindow1",
       "directions": 4
     },
     {
-      "name": "concretewall2",
+      "name": "seolitewindow2",
       "directions": 4
     },
     {
-      "name": "concretewall3",
+      "name": "seolitewindow3",
       "directions": 4
     },
     {
-      "name": "concretewall4",
+      "name": "seolitewindow4",
       "directions": 4
     },
     {
-      "name": "concretewall5",
+      "name": "seolitewindow5",
       "directions": 4
     },
     {
-      "name": "concretewall6",
+      "name": "seolitewindow6",
       "directions": 4
     },
     {
-      "name": "concretewall7",
+      "name": "seolitewindow7",
       "directions": 4
     }
   ]
