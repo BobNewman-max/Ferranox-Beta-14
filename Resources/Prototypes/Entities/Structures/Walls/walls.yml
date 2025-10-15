@@ -1699,3 +1699,57 @@
   - type: Occluder
   - type: BlockWeather
   - type: SunShadowCast
+
+  #Farranox Walls
+
+- type: entity
+  parent: BaseWall
+  id: ConcreteWall
+  name: Concrete Wall
+  components:
+  - type: Sprite
+    sprite: Resources/Textures/_Ferranox/Structures/Walls/concretewalls.rsi
+  - type: Icon
+    sprite: Resources/Textures/_Ferranox/Structures/Walls/concretewalls.rsi
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 300
+      behaviors:
+      - !type:SpawnEntitiesBehavior
+        spawn:
+          Girder:
+            min: 1
+            max: 1
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+  - type: IconSmooth
+    key: walls
+    base: concretewall
+
+- type: entity
+  parent: BaseWall
+  id: SeoliteWall
+  name: Seolite Wall
+  components:
+  - type: Sprite
+    sprite: Resources/Textures/_Ferranox/Structures/Walls/seolitewalls.rsi
+  - type: Icon
+    sprite: Resources/Textures/_Ferranox/Structures/Walls/seolitewalls.rsi
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 300
+      behaviors:
+      - !type:SpawnEntitiesBehavior
+        spawn:
+          Girder:
+            min: 1
+            max: 1
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+  - type: IconSmooth
+    key: walls
+    base: seolitewall
